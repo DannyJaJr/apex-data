@@ -1,0 +1,13 @@
+<apex:page standardController="Account">
+    <apex:pageBlock title="Account Summary">
+        <apex:pageBlockSection >
+            <h1>
+           "&id=0018c00002DJGCqAAP"
+            </h1>
+            Name: {! Account.Name } <br/>
+            Phone: {! Account.Phone } <br/>
+            Industry: {! Account.Industry } <br/>
+            Revenue: {! Account.AnnualRevenue } <br/>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+</apex:page>
